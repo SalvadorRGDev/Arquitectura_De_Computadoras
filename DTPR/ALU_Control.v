@@ -9,7 +9,7 @@ always @(*) begin
         3'b010:
             begin
                 case(funct)
-                    6'b100100: Operation = 4'b0010;
+                    6'b100100: Operation = 4'b0000;
                     6'b100101: Operation = 4'b0001;
                     6'b100000: Operation = 4'b0010;
                     6'b100010: Operation = 4'b0011;
